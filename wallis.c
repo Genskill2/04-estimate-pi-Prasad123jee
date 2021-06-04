@@ -4,7 +4,8 @@
 #include <math.h>
 
 float wallis_pi(int);
-float wallis_pi(int n){
+float wallis_pi(int n)
+{
   float product=1;
   for(int i=1; i<=n; i++){	
     product=((4.0*i*i)/((4.0*i*i)-1))*product;
